@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tommy — Personal Portfolio</title>
+  <meta name="description"
+    content="Portfolio cá nhân của Tommy: DevOps, hành trình, ảnh, bài viết và những điều đáng nhớ." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&family=WindSong:wght@500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="stars" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <header class="site-header">
+    <a href="#home" class="brand">T<span>ommy</span>.</a>
+    <nav class="nav">
+      <a href="#about">Giới Thiệu</a>
+      <a href="#experience">Hành Trình</a>
+      <a href="#portfolio">Bộ Sưu Tập</a>
+      <a href="#contact">Liên Hệ</a>
+    </nav>
+    <div class="actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Đổi giao diện">
+        <span class="moon">☾</span><span class="sun">☀</span>
+      </button>
+      <a class="cv-btn" href="#portfolio">Ảnh</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="hello">Xin chào, tôi là</p>
+        <h1>Tommy</h1>
+        <h2>
+          <span id="typeText">DevOps Engineer</span><span class="cursor">|</span>
+        </h2>
+        <p class="lead">
+          Mình thích du lịch cũng thích giữ lại những khoảnh khắc rất đời: một
+          chiều Đà Lạt đầy mây, một con đường thông, một buổi biển Nha Trang
+          và một đêm chợ sáng đèn.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary">Liên hệ với tôi</a>
+          <a href="#portfolio" class="btn ghost">Xem bộ sưu tập</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-card">
+          <img src="assets/night-house.jpg" alt="Một căn nhà sáng đèn dưới trời đêm Đà Lạt" />
+          <div class="orbit one"></div>
+          <div class="orbit two"></div>
+        </div>
+        <div class="mini-card top">
+          <strong>Đà Lạt</strong><span>những ngày chậm lại</span>
+        </div>
+        <div class="mini-card bottom">
+          <strong>Portfolio</strong><span>ảnh • ghi chép</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section panel-section">
+      <div class="section-heading reveal">
+        <span>01</span>
+        <h2>Về Bản Thân</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <img src="assets/dalat-view.jpg" alt="Đà Lạt nhìn từ trên cao" />
+        </div>
+        <div class="about-text reveal">
+          <h3>
+            Một người làm kỹ thuật, nhưng cũng rất thích những điều bình dị và
+            giản đơn.
+          </h3>
+          <p>
+            Ngoài công việc, mình muốn có một góc riêng để lưu lại ảnh, chuyến
+            đi, suy nghĩ và những câu chuyện nhỏ của mình.
+          </p>
+          <div class="info-list">
+            <div><b>Vai trò</b><span>DevOps / Platform Engineer</span></div>
+            <div>
+              <b>Góc yêu thích</b><span>Đà Lạt, Nha Trang, bầu trời, đường thông</span>
+            </div>
+            <div>
+              <b>Website này</b><span>Nơi lưu lại ảnh và câu chuyện cá nhân</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience section">
+      <div class="section-heading reveal">
+        <span>02</span>
+        <h2>Hành Trình</h2>
+      </div>
+      <div class="timeline reveal">
+        <article>
+          <time>Đà Lạt</time>
+          <h3>Một chiều đầy mây</h3>
+          <p>
+            Những mái nhà, lớp nhà kính và bầu trời xám khiến mình nhận ra đôi
+            khi chỉ cần đứng yên cũng đủ thấy nhẹ lòng.
+          </p>
+        </article>
+        <article>
+          <time>Chợ đêm</time>
+          <h3>Âm thanh của thành phố núi</h3>
+          <p>
+            Ánh đèn, tiếng người, mùi đồ nướng và cái lạnh rất riêng của Đà
+            Lạt tạo thành một ký ức khó quên.
+          </p>
+        </article>
+        <article>
+          <time>Nha Trang</time>
+          <h3>Một ngày có biển và nắng</h3>
+          <p>
+            Biển rộng, gió nhẹ và màu trời thay đổi từng chút một. Có những
+            khoảnh khắc không cần nói nhiều, chỉ cần giữ lại bằng một tấm ảnh.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+      <div class="section-heading reveal">
+        <span>03</span>
+        <h2>Bộ Sưu Tập Nổi Bật</h2>
+      </div>
+      <div class="filter reveal">
+        <button class="active" data-filter="all">Tất cả</button>
+        <button data-filter="dalat">Đà Lạt</button>
+        <button data-filter="life">Đời sống</button>
+        <button data-filter="sky">Bầu trời</button>
+        <button data-filter="night">Ban đêm</button>
+        <button data-filter="nhatrang">Nha Trang</button>
+      </div>
+      <div class="portfolio-grid">
+        <article class="project-card reveal" data-cat="dalat">
+          <img src="assets/dalat-wide.jpg" alt="Những mái nhà và nhà kính ở Đà Lạt" />
+          <div>
+            <p>Đà Lạt</p>
+            <h3>Những mái nhà dưới mây</h3>
+          </div>
+        </article>
+        <article class="project-card reveal" data-cat="life">
+          <img src="assets/goat-farm.jpg" alt="Bạn dê trắng ở nông trại" />
+          <div>
+            <p>Đời sống</p>
+            <h3>Chuyện nhỏ ở nông trại</h3>
+          </div>
+        </article>
+        <article class="project-card reveal" data-cat="sky">
+          <img src="assets/purple-sunset.jpg" alt="Hoàng hôn tím" />
+          <div>
+            <p>Bầu trời</p>
+            <h3>Khi trời Đà Lạt chuyển màu</h3>
+          </div>
+        </article>
+        <article class="project-card reveal" data-cat="night">
+          <img src="assets/cho-da-lat.jpg" alt="Chợ Đà Lạt ban đêm" />
+          <div>
+            <p>Ban đêm</p>
+            <h3>Một đêm ở chợ Đà Lạt</h3>
+          </div>
+        </article>
+        <article class="project-card reveal" data-cat="dalat">
+          <img src="assets/pine-road.jpg" alt="Đường thông Đà Lạt" />
+          <div>
+            <p>Đà Lạt</p>
+            <h3>Con đường thông có nắng</h3>
+          </div>
+        </article>
+        <article class="project-card reveal" data-cat="night">
+          <img src="assets/night-house.jpg" alt="Ngôi nhà sáng đèn dưới trời sao" />
+          <div>
+            <p>Ban đêm</p>
+            <h3>Đêm yên tĩnh</h3>
+          </div>
+        </article>
+        <article class="project-card reveal wide" data-cat="sky">
+          <img src="assets/blue-hour.jpg" alt="Bầu trời xanh lúc hoàng hôn" />
+          <div>
+            <p>Bầu trời</p>
+            <h3>Đi chậm để thấy nhiều hơn</h3>
+          </div>
+        </article>
+        <article class="project-card reveal wide" data-cat="nhatrang">
+          <img src="assets/nha-trang-beach.jpg" alt="Biển Nha Trang nhìn từ trên cao" />
+          <div>
+            <p>Nha Trang</p>
+            <h3>Một ngày nhìn ra biển</h3>
+          </div>
+        </article>
+        <article class="project-card reveal" data-cat="nhatrang sky">
+          <img src="assets/nha-trang-dusk.jpg" alt="Hoàng hôn tím trên biển Nha Trang" />
+          <div>
+            <p>Nha Trang</p>
+            <h3>Khi biển chuyển màu</h3>
+          </div>
+        </article>
+        <article class="project-card reveal" data-cat="nhatrang sky">
+          <img src="assets/nha-trang-golden-sunset.jpg" alt="Mặt trời vàng trên biển" />
+          <div>
+            <p>Nha Trang</p>
+            <h3>Khoảnh khắc mặt trời chạm nước</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section panel-section">
+      <div class="section-heading reveal">
+        <span>04</span>
+        <h2>Liên Hệ</h2>
+      </div>
+      <div class="contact-card reveal">
+        <h3>Muốn trao đổi hoặc đơn giản là ghé qua góc nhỏ này?</h3>
+        <p>
+          Mình luôn sẵn sàng nói chuyện về công việc, ảnh, Đà Lạt, Nha Trang
+          hoặc những câu chuyện đời thường thú vị.
+        </p>
+        <div class="contact-list">
+          <a href="mailto:hoangviet3236@gmail.com">Email: hoangviet3236@gmail.com</a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook: Nguyễn Hoàng Việt</a>
+          <a href="#">Việt Nam</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Tommy. Built as a personal corner on the internet.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
