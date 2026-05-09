@@ -92,3 +92,19 @@ html[data-theme="light"] .tech-icon{
   .tech-grid{grid-template-columns:1fr}
   .tech-card{min-height:auto;padding:24px}
 }
+
+/* Custom contact icons */
+.contact-list.icon-only a.contact-icon.image-icon {
+  overflow: hidden;
+  background: rgba(255,255,255,.04);
+}
+.contact-list.icon-only a.contact-icon.image-icon img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  filter: none;
+}
+.contact-list.icon-only a.contact-icon.image-icon[title="Facebook"] img {
+  width: 42px;
+  height: 42px;
+}
